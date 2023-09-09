@@ -1,0 +1,17 @@
+//phone
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+
+//web
+@media screen and (min-width: 64em){
+  .products{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 35px;
+    ;
+  }
+}

@@ -1,0 +1,8 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<app-img *ngIf="product.images.length > 0" [img]="product.images[0]"></app-img>
+<p class="title">{{product.title}}</p>
+<!-- <p class="description">{{product.description}}</p> -->
+<h2 class="price">{{product.price | currency}}</h2>
